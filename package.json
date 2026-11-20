@@ -1,0 +1,23 @@
+{
+  "name": "sloyka",
+  "version": "0.17.0",
+  "description": "3D solution-architecture diagrams, layer by layer: nested boxes, 3D wires, layers, flows and focus views from a YAML model.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "keywords": ["architecture", "diagram", "3d", "three.js", "c4", "yaml"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exomen/sloyka.git"
+  },
+  "dependencies": {
+    "js-yaml": "^4.1.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}

@@ -1,0 +1,5 @@
+node_modules/
+*.png
+test*.py
+check*.mjs
+patch_*.py
